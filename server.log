@@ -1,0 +1,20 @@
+[dotenv@17.2.1] injecting env (3) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+Server running on port 3001
+Connected to MongoDB
+Received invoice creation request: {
+  clientId: '6b0184ba77fef151aaf405e0',
+  items: [
+    { description: 'biryani', quantity: 1, price: 100, amount: 100 },
+    { description: 'rita', quantity: 1, price: 60, amount: 60 },
+    {
+      description: 'alu ki biryani',
+      quantity: 5,
+      price: 150,
+      amount: 750
+    }
+  ],
+  taxRate: 0,
+  notes: '',
+  issueDate: '2026-11-21',
+  dueDate: '2026-12-21'
+}
